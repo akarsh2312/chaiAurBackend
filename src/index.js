@@ -1,6 +1,7 @@
 import connectDB from "./db/index.js";
 import dotenv from "dotenv"
-import { app } from "../app.js";
+import {app} from './app.js'
+//sbse phle index file dotenv ka acces lo then connectDb call kro
 dotenv.config({
     path:'./.env'
 })
